@@ -1,0 +1,30 @@
+.banner_div{
+    width: 100%;
+    object-fit: contain;
+    height: 100vh;
+}
+.banner_button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.banner_content{
+    padding-left: 60px;
+    padding-top: 38vh;
+    width: 50%;
+    color: #fff;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.4vw;
+}
+.banner_content p{
+    margin: 20px 0px;
+}
+.banner_content h1{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 3.6rem;
+}
+
+.banner_button1:hover{
+    cursor: pointer;
+}
+

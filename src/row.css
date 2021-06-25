@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0px 0px ;
+    margin: 0px 0px ;
+    width: 100%;
+    /* background-color: rgb(20, 20, 20); */
+    /* opacity: -7; */
+    /* background: transparent;*/
+    /* background-color:white ; */
+}
+.NetflixOrignals{
+    object-fit: contain;
+    max-width: 176.7vh;;
+    overflow: visible;
+    
+}
+.NetflixOrignals h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    color: white;
+    padding-left: 60px;
+    padding-right: -90px;
+}
+.netflixMovies_row{
+    padding: 10px 60px;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    transition: transform 500ms;
+}
+.netflixMovies_row::-webkit-scrollbar{
+    display: none;
+}
+.row_img{
+    width: 24vh;
+    height: 40vh;
+    border-radius: 5px;
+}
+.row_img:hover{
+    transform: scale(1.08);
+}
+
+.other_row_img{
+    height: 18vh;
+    border-radius: 5px;
+    overflow:visible;
+
+}
+.other_row_img:hover{
+    transform: scale(1.08);
+    z-index: 1;
+}

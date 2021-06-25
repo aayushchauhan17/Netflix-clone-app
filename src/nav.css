@@ -1,0 +1,65 @@
+.navbar{
+    width: 180vh;
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    padding: 15px 60px;
+    position: fixed;
+    z-index: 1;
+    background: linear-gradient(rgb(37, 37, 37),rgba(37, 37, 37, 0.619), rgba(37, 37, 37, 0.008));
+}
+.navbar_black{
+    width: 180vh;
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    padding: 15px 60px;
+    position: fixed;
+    z-index: 1;
+    background: rgb(32, 32, 32);
+}
+.navbar1{
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+.nav_list{
+    display: grid;
+    grid-auto-flow: column;
+    grid-row: auto;
+    width: 50vh;
+    padding-left: 35px;
+}
+.nav_list li{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: rgb(221, 219, 219);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: transform .4s;
+}
+.nav_list li:hover{
+    cursor: pointer;
+    color: gray;
+    transform: scale(1.01);
+}
+.nav_right{
+    display:flex;
+    justify-content: flex-end;
+    text-align: center;
+    width: 60vh;
+    color: rgb(221, 219, 219);
+    padding-right: 40px;
+}
+.nav_right_icon:hover{
+    cursor: pointer;
+    color: gray;
+    transform: scale(1.01);
+
+}
+.nav_right_search{
+    background: "rgba(51, 51, 51, 0.5)";
+    display: flex;
+    text-align: center;
+}
